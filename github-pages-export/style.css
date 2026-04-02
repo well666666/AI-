@@ -1,0 +1,21 @@
+/* style.css */
+
+/* 處理 Modal 開啟時的動畫與顯示狀態 */
+.modal-open {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.modal-open #modalContainer {
+  transform: scale(1) !important;
+}
+
+/* 處理搜尋結果的淡入動畫 */
+.fade-in {
+  opacity: 1 !important;
+}
+
+/* 確保 Tailwind 的基礎字體設定生效 */
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
