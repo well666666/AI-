@@ -1,0 +1,5 @@
+{
+  "name": "企業 AI 智慧知識庫系統",
+  "description": "企業內部的知識庫網站，整合「規章」、「流程表」與「表格」三大核心內容，並具備 AI 語義搜尋功能。",
+  "requestFramePermissions": []
+}
