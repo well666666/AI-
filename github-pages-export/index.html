@@ -33,16 +33,16 @@
     
     <!-- Search Section -->
     <div class="max-w-3xl mx-auto text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight">您今天需要什麼協助？</h2>
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight">您今天需要什麼協助？ <span class="text-2xl md:text-3xl text-gray-500 font-medium block mt-2 md:inline md:mt-0 md:ml-2">How can I help you today?</span></h2>
       
       <form id="searchForm" class="relative group">
         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
           <i data-lucide="search" class="h-6 w-6 text-gray-400 group-focus-within:text-[#1A237E] transition-colors"></i>
         </div>
-        <input type="text" id="searchInput" class="block w-full pl-12 pr-32 py-4 bg-white border border-gray-300 rounded-2xl text-lg text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-[#1A237E] focus:border-transparent transition-all shadow-sm hover:shadow-md" placeholder="例如：請假怎麼請？出差費用怎麼報銷？">
+        <input type="text" id="searchInput" class="block w-full pl-12 pr-32 py-4 bg-white border border-gray-300 rounded-2xl text-lg text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-[#1A237E] focus:border-transparent transition-all shadow-sm hover:shadow-md" placeholder="例如：請假怎麼請？ / e.g., How to apply for leave?">
         <button type="submit" id="searchBtn" disabled class="absolute inset-y-2 right-2 px-6 bg-[#1A237E] hover:bg-[#283593] text-white rounded-xl font-medium transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 shadow-sm">
           <div id="searchBtnSpinner" class="hidden w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-          <span id="searchBtnText">AI 搜尋</span>
+          <span id="searchBtnText">AI 搜尋 / Search</span>
         </button>
       </form>
 

@@ -166,7 +166,7 @@ searchForm.addEventListener('submit', (e) => {
   // Loading state
   searchBtn.disabled = true;
   searchBtn.classList.add('opacity-50', 'cursor-not-allowed');
-  searchBtnText.textContent = '思考中...';
+  searchBtnText.textContent = '思考中... / Thinking...';
   searchBtnSpinner.classList.remove('hidden');
   searchResultArea.classList.remove('fade-in');
   
@@ -178,7 +178,7 @@ searchForm.addEventListener('submit', (e) => {
     // Reset loading state
     searchBtn.disabled = false;
     searchBtn.classList.remove('opacity-50', 'cursor-not-allowed');
-    searchBtnText.textContent = 'AI 搜尋';
+    searchBtnText.textContent = 'AI 搜尋 / Search';
     searchBtnSpinner.classList.add('hidden');
 
     // Language Detection & Logic

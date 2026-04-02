@@ -234,7 +234,7 @@ export default function App() {
         {/* Search Section */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight">
-            您今天需要什麼協助？
+            您今天需要什麼協助？ <span className="text-2xl md:text-3xl text-gray-500 font-medium block mt-2 md:inline md:mt-0 md:ml-2">How can I help you today?</span>
           </h2>
           
           <form onSubmit={handleSearch} className="relative group">
@@ -246,7 +246,7 @@ export default function App() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="block w-full pl-12 pr-32 py-4 bg-white border border-gray-300 rounded-2xl text-lg text-gray-900 placeholder-gray-400 focus:ring-2 focus:ring-[#1A237E] focus:border-transparent transition-all shadow-sm hover:shadow-md"
-              placeholder="例如：請假怎麼請？出差費用怎麼報銷？"
+              placeholder="例如：請假怎麼請？ / e.g., How to apply for leave?"
             />
             <button
               type="submit"
@@ -256,10 +256,10 @@ export default function App() {
               {isSearching ? (
                 <>
                   <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                  <span>思考中...</span>
+                  <span>思考中... / Thinking...</span>
                 </>
               ) : (
-                <span>AI 搜尋</span>
+                <span>AI 搜尋 / Search</span>
               )}
             </button>
           </form>
